@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: rgb(177, 230, 19);
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.banner img {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.25rem;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Course Images */
+.col-md-4 img {
+    transition: transform 0.2s;
+}
+
+.col-md-4 img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) 
+{
+    .banner-text h2 
+    {
+        font-size: 1.5rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+}

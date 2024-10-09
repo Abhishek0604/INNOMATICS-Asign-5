@@ -1,0 +1,32 @@
+/project
+    /images
+        logo.png
+        https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png                                                                      # Innomatics Logo
+        mb-banner.jpg 
+        https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg                                                                             # Awards
+        data-science-course.jpg
+        https://www.innomatics.in/wp-content/uploads/2023/01/No-1-best-data-science-course-training-institute-in-hyderabad.jpg                         # Data Science Course
+        full-stack-development.jpg
+         https://www.innomatics.in/wp-content/uploads/2023/01/Full-Stack-Web-Development-training-program-Innomatics-research-labs-india.png           # Full Stack Development Course
+        digital-marketing.jpg
+        https://www.innomatics.in/wp-content/uploads/2023/01/digital-marketing-course-training-hyderabad.jpg                                           # Digital Marketing Course
+        big-data-analytics.jpg
+        https://www.innomatics.in/wp-content/uploads/2023/01/big-data-analytics-with-hadoop-training-in-hyderabad-india.jpg                            # Big Data Analytics Course
+        aws-training.jpg
+        https://www.innomatics.in/wp-content/uploads/2023/01/AWS-training-institute-Innomatics-research-labs-Kukatpallihyderabad.jpg                   # AWS Training Course
+        devops-training.jpg
+         https://www.innomatics.in/wp-content/uploads/2023/01/Devops-institute-Innomatics-research-labs-KukatpallyHyderabad.jpg                        # DevOps Training Course
+        footer-logo.png
+        https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5450-scaled/2374760138.jpg                                                      # Innomatics Footer Logo
+        full-stack-internship.jpg
+         https://www.innomatics.in/wp-content/uploads/2024/09/full-stack-internship.jpg                                                                # Full Stack Internship
+        award-page.jpg
+        https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg                                                                            # Banner Image
+        classroom1.jpg
+        https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5450-scaled/2374760138.jpg                         # Classroom Image 1
+        classroom2.jpg
+        https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5414-scaled/2727721008.jpg                         # Classroom Image 2
+        classroom3.jpg
+        https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5452-scaled/2408469614.jpg                         # Classroom Image 3
+    index.html
+    style.css

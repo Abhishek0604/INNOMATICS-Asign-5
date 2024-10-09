@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomatics - Responsive Web Design</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div>
+            <a class="navbar-brand" href="#">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" alt="Innomatics Logo" height="60">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#banner">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#classrooms">Classrooms</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="header" class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Innomatics</h1>
+        <p class="lead">Learn from the Best in Data Science, Full Stack Development, and More</p>
+        <a class="btn btn-primary btn-lg" href="#courses" role="button">Explore Courses</a>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="banner" class="banner text-center">
+        <img src="https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg" class="img-fluid " alt="Innomatics Banner">
+        <div class="banner-text">
+            <h2>Join Our Community of Learners</h2>
+            <p>Explore our diverse range of courses and elevate your skills.</p>
+            <a class="btn btn-primary" href="#">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="text-center my-5">
+        <h2>Awards</h2>
+        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg" class="img-fluid mb-3" alt="Awards Banner">
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="container my-5">
+        <h2 class="text-center mb-4">Our Courses</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-right" data-aos-delay="1000">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/No-1-best-data-science-course-training-institute-in-hyderabad.jpg" class="img-fluid" alt="Data Science Course">
+                <h3 class="text-center mt-2">Data Science</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="flip-up" data-aos-delay="2000">
+                <a href="https://www.innomatics.in/wp-content/uploads/2024/09/full-stack-internship.jpg" target="_blank" class="text-decoration-none">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Full-Stack-Web-Development-training-program-Innomatics-research-labs-india.png" class="img-fluid" alt="Full Stack Development">
+                    <h3 class="text-center mt-0">Full Stack Development</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="flip-left" data-aos-delay="400">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/digital-marketing-course-training-hyderabad.jpg" class="img-fluid" alt="Digital Marketing">
+                <h3 class="text-center mt-2">Digital Marketing</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-down-left">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/big-data-analytics-with-hadoop-training-in-hyderabad-india.jpg" class="img-fluid" alt="Big Data Analytics">
+                <h3 class="text-center mt-2">Big Data Analytics</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="zoom-in">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWS-training-institute-Innomatics-research-labs-Kukatpallihyderabad.jpg" class="img-fluid" alt="AWS Training">
+                <h3 class="text-center mt-2">AWS Training</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Devops-institute-Innomatics-research-labs-KukatpallyHyderabad.jpg" class="img-fluid" alt="DevOps Training">
+                <h3 class="text-center mt-2">DevOps Training</h3>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Classrooms Section -->
+    <section id="classrooms" class="container my-5">
+        <h2 class="text-center mb-4">Our Classrooms</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5450-scaled/2374760138.jpg" class="img-fluid" alt="Classroom Image 1">
+                <h3 class="text-center mt-2">Classroom 1</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5414-scaled/2727721008.jpg" class="img-fluid" alt="Classroom Image 2">
+                <h3 class="text-center mt-2">Classroom 2</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 card mt-4" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+                <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5452-scaled/2408469614.jpg" class="img-fluid" alt="Classroom Image 3">
+                <h3 class="text-center mt-2">Classroom 3</h3>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/innomatics-footer-logo.png" width="350" alt="Innomatics Footer Logo">
+        <p>&copy; 2024 Innomatics Research Labs. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Initialize AOS animations -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
